@@ -1,0 +1,38 @@
+## Acticity schema:
+# [
+#  1 -> city_id
+#  "ceetiz" -> provider name
+#  "Guided Tour of The Colosseum ..." -> activity title
+#  "No trip to Rome would be complete without a visit " -> activity description
+#  "https://www.ceetiz.com/rome/guided-tour..." -> activity url (misses Wajanga affiliation codes)
+#  10800 -> activity duration in seconds
+#  "https://media.ceetiz.com/activity/WONROM001/thumb...g" -> activity thumb
+#  8 -> category id
+#  "colosseum,palatine hill,roman forum" -> identities list
+#  "ticket,tour,skip" -> primary tags list
+#  "instant confirmation,mobile ticket accepted" -> secondary tags list
+#  4986 -> price in cents
+#  "EUR" -> currency
+#  "everyday" -> availability (it can be "everyday" or a list like "tuesday,friday")
+#  "" -> language (it can be empty or a list like "english,french")
+#  "more than 8 days in advance: full refund,4 to 8 days in advance: 80% refund,less than 4 days: no refund" -> cancellation
+# ]
+
+activities = [
+    [
+        1,
+        "ceetiz",
+        "Guided Tour of The Colosseum, The Forum & The Palatine Hill – Skip-the-line ticket",
+        "No trip to Rome would be complete without a visit to the Colosseum! Also known as the Flavian Amphitheatre, the Roman Colosseum is the largest amphitheatre of the Roman Empire. It was completed in 80 AD, and had a capacity for between 50,000 and 75,000 spectators.",
+        "https://www.ceetiz.com/rome/guided-tour-of-the-colosseum-skip-the-line-ticket",
+        10800,
+        "https://media.ceetiz.com/activity/WONROM001/thumbnails/642x450/colosseo_stare_stamped.jpg",
+        8,
+        "colosseum,palatine hill,roman forum",
+        "ticket,tour,skip",
+        'instant confirmation,mobile ticket accepted',
+        4986,
+        'EUR'
+    ],
+
+]

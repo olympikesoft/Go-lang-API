@@ -1,0 +1,7 @@
+.git
+.idea
+.DS_Store
+.gitignore
+seeder.go
+rsync_exclude
+vendor/config/config.toml
